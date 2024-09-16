@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Basic</title>
+</head>
+<body>
+    <header>
+        <h1>Basic of DOM practice</h1>
+    <main>
+        <section>
+            <h3>List of fruits</h3>
+            <ul id="ul1" class="uls">
+                <li>aaaam</li>
+                <li>kaaataaaal</li>
+            </ul>
+        </section>
+        <section>
+            <h3>List of Flowers</h3>
+            <ul class="uls">
+                <li>joooba</li>
+                <li>beliiiii</li>
+                <li>gondhaaaa</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>All right reserved to abdallah</p>
+    </footer>
+    <script>
+        // const h1 = document.getElementsByTagName("h1").item(0)
+        // console.log(h1.innerText)
+        // const uls3 = document.getElementById("ul1")
+        // console.log(uls3)
+        // const uls2 = document.getElementsByClassName("uls")
+        // console.log(uls2)
+        // const uls1 = document.getElementsByTagName("ul")
+        // console.log(uls1)
+        const uls = document.querySelectorAll(".uls")
+        console.log(uls)
+        const uls4 = document.querySelector('ul')
+        console.log(uls4)
+        const uls5 = document.querySelector('#ul1')
+        console.log(uls5)
+        const uls6 = document.querySelector('.uls')
+        console.log(uls6)
+        for (const ul of uls){
+            // console.log(ul.innerText)
+        }
+    </script>
+</body>
+</html>
